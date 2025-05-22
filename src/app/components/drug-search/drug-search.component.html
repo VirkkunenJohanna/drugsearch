@@ -1,0 +1,18 @@
+<div class="search-container">
+  <h2>Lääkkeiden haku</h2>
+  <input [(ngModel)]="searchQuery" (keyup.enter)="search()" placeholder="Syötä lääkenimi..." />
+  <button (click)="search()">Hae</button>
+
+  <div *ngIf="drugs.length > 0">
+    <h3>Hakutulokset:</h3>
+    <ul>
+      <li *ngFor="let drug of drugs">
+        {{ drug.openfda?.brand_name?.[0] || 'Tuntematon lääke' }}
+      </li>
+    </ul>
+  </div>
+
+  <div *ngIf="drugs.length === 0 && searchQuery">
+    <p>Ei tuloksia.</p>
+  </div>
+</div>
