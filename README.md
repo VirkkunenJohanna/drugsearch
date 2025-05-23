@@ -3,6 +3,8 @@
 ## Kuvaus
 Drug Search App on Angular 19 -pohjainen lääkehaku-sovellus, joka hakee lääketietoja OpenFDA:n julkisesta rajapinnasta. Sovellus näyttää haetun lääkkeen tiedot, kuten nimen ja kuvauksen, sekä tallentaa käyttäjän hakusanat Firebase Firestore -tietokantaan.
 
+![Sovelluksen alkunäkymä](https://github.com/VirkkunenJohanna/drugsearch/blob/main/start_screen.PNG)
+
 ---
 
 ## Ominaisuudet
