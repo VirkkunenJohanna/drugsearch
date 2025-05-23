@@ -9,6 +9,7 @@
       <li *ngFor="let drug of drugs">
         <strong>{{ drug.openfda?.brand_name?.[0] || 'Tuntematon lääke' }}</strong><br />
         <em>{{ drug.description?.[0] || 'Ei kuvausta saatavilla.' }}</em>
+        <em>{{ drug.adverse_reactions?.[0] || 'Ei haittavaikutustietoja.' }}</em>
       </li>
     </ul>
   </div>
