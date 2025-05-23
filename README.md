@@ -10,7 +10,7 @@ Drug Search App on Angular 19 -pohjainen lääkehaku-sovellus, joka hakee lääk
 - Lääkkeiden hakeminen OpenFDA API:sta
 - Haun tulosten näyttäminen (nimi ja kuvaus)
 - Hakujen tallennus Firebase Firestoreen
-- Reagoiva ja selkeä käyttöliittymä SCSS-muotoilulla
+- Selkeä käyttöliittymä SCSS-muotoilulla
 - Moderni Angular 19 -arkkitehtuuri ja standalone-komponentit
 
 ---
