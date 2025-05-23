@@ -10,7 +10,8 @@ import { DrugService } from '../../services/drug.service';
     CommonModule,
     FormsModule
   ],
-  templateUrl: './drug-search.component.html'
+  templateUrl: './drug-search.component.html',
+  styleUrls: ['./drug-search.component.scss']
 })
 export class DrugSearchComponent {
   searchQuery: string = '';

@@ -7,7 +7,8 @@
     <h3>Hakutulokset:</h3>
     <ul>
       <li *ngFor="let drug of drugs">
-        {{ drug.openfda?.brand_name?.[0] || 'Tuntematon lääke' }}
+        <strong>{{ drug.openfda?.brand_name?.[0] || 'Tuntematon lääke' }}</strong><br />
+        <em>{{ drug.description?.[0] || 'Ei kuvausta saatavilla.' }}</em>
       </li>
     </ul>
   </div>
